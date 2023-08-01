@@ -12,7 +12,7 @@ const entries = Object.entries(jsonObject);
 // Função para disparar o endpoint
 function dispararEndpoint(objetoConvertido) {
     // Substitua a URL abaixo pela URL do seu endpoint
-    const endpointURL = 'http://pdt-api-stg.us-east-1.elasticbeanstalk.com/v1/affiliated';
+    const endpointURL = '';
 
     // Faz a requisição POST com os dados do objetoConvertido
     axios.post(endpointURL, objetoConvertido)
